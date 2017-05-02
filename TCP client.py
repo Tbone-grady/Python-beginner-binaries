@@ -16,7 +16,7 @@ client.connect((target_host,target_port))
 #This connects to our system to our google TAREX server
 
 
-# send some data to identify whether TAREX server is up 
+# send some data to identify whether TAREX is up 
 client.send("Get /HTTP/1.1\nHost: google.com\r\n\r\n")
 # sending some data through port 80 on google.com 
 
